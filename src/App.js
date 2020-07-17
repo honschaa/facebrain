@@ -8,8 +8,7 @@ import FaceRecognition from "./components/FaceRecognition/FaceRecognition";
 import Signin from "./components/Signin/Signin";
 import Register from "./components/Register/Register";
 import Particles from "react-particles-js";
-// import Clarifai from "clarifai";
-// import { findAllByDisplayValue } from "@testing-library/react";
+
 
 const particlesOptions = {
   particles: {
@@ -43,12 +42,6 @@ class App extends Component {
     super();
     this.state = initialState;
   }
-
-  // componentDidMount() {
-  //   fetch(" https://whispering-stream-90256.herokuapp.com")
-  //     .then((response) => response.json())
-  //     .then(console.log);
-  // }
 
   loadUser = (data) => {
     this.setState({
